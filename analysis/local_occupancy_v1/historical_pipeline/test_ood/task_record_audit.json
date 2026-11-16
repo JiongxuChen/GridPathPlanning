@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "independent_samples": 200,
+  "independent_sample_limit": 200,
+  "independent_tasks": {
+    "GENERATE": 60,
+    "VERIFY": 80,
+    "REPAIR": 60
+  },
+  "planned_records": 740,
+  "materialized_records": 550,
+  "skipped_records": 190,
+  "model_input_limit": 740,
+  "counting_policy": "独立G/V/R样本配额与派生/共享方法模型输入分开统计",
+  "planned_tasks": {
+    "GENERATE": 60,
+    "VERIFY": 200,
+    "REPAIR": 480
+  },
+  "materialized_tasks": {
+    "GENERATE": 60,
+    "VERIFY": 200,
+    "REPAIR": 290
+  }
+}

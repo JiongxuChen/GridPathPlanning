@@ -1,0 +1,156 @@
+{
+  "contract": {
+    "only_binding_difference": "src/gridpath/planning/model.py",
+    "reference_hash": "9707859d6add76fc328bebed0ad4ffb29cb685788b9a4f99a40dbea3a38d2c0d",
+    "ablation_hash": "1ca9189e8d54824cf5028ded89d0acb5629f3539a2dd96204f70d1c569569c98"
+  },
+  "paired_case_count": 120,
+  "paired_fixed_v_count": 80,
+  "same_G_truth_and_executor_routes": true,
+  "ablation_test_sets_not_evaluated": true,
+  "additional_gpu_hours": 0.11869950322444411,
+  "reference": {
+    "fixed_v80": {
+      "macro_f1": 0.949874686716792,
+      "classification_accuracy": 0.95,
+      "localization_count_of_40": 34,
+      "joint_count_of_40": 34,
+      "confusion": {
+        "invalid->invalid": 36,
+        "valid->valid": 40,
+        "invalid->valid": 4
+      },
+      "collision_joint_count_of_10": 4
+    },
+    "natural_collisions": {
+      "count": 17,
+      "detected": 5,
+      "joint_correct": 3,
+      "invalid_recall": 0.29411764705882354,
+      "localized": 3,
+      "localization_accuracy": 0.17647058823529413,
+      "joint_accuracy": 0.17647058823529413,
+      "missed_ids": [
+        "sample_2dc5bdc2a177c6f6f3a6d9ee",
+        "sample_28c383549793093a14feac9e",
+        "sample_aae6bd3a9559c9088a02b490",
+        "sample_6fd1716c0353b4a11ce29276",
+        "sample_5cb8a0d8629e24724bf5390d",
+        "sample_ca5d37e2f3a7ff74885455e3",
+        "sample_af539f963f7a18ad5cd81a9e",
+        "sample_12e4181c8bf0e9e7c603e0f7",
+        "sample_afe0d3669483119d7f4f60a9",
+        "sample_441b0deea6e5a8332622b3da",
+        "sample_46dfff338ebbc4672da34d33",
+        "sample_2e4f4cbb526018266f66864a"
+      ],
+      "repairs": {
+        "self_prompt": 0,
+        "self_prefix": 0,
+        "executor_prompt": 0,
+        "executor_prefix": 0
+      }
+    },
+    "panels": {
+      "generated": {
+        "direct_success": 42,
+        "self_repairs": {
+          "prompt": {
+            "final_success_count": 43,
+            "valid_destruction_count": 0,
+            "repair_success_count": 1,
+            "logical_repair_model_calls": 6
+          },
+          "prefix": {
+            "final_success_count": 42,
+            "valid_destruction_count": 0,
+            "repair_success_count": 0,
+            "logical_repair_model_calls": 5
+          }
+        }
+      },
+      "controlled_repair": {
+        "direct_success": 0,
+        "self_repairs": {
+          "prompt": {
+            "final_success_count": 33,
+            "valid_destruction_count": 0,
+            "repair_success_count": 33,
+            "logical_repair_model_calls": 54
+          },
+          "prefix": {
+            "final_success_count": 29,
+            "valid_destruction_count": 0,
+            "repair_success_count": 29,
+            "logical_repair_model_calls": 47
+          }
+        }
+      }
+    }
+  },
+  "ablation": {
+    "fixed_v80": {
+      "macro_f1": 0.3333333333333333,
+      "classification_accuracy": 0.5,
+      "localization_count_of_40": 8,
+      "joint_count_of_40": 8,
+      "confusion": {
+        "invalid->invalid": 40,
+        "valid->invalid": 40
+      },
+      "collision_joint_count_of_10": 2
+    },
+    "natural_collisions": {
+      "count": 17,
+      "detected": 17,
+      "joint_correct": 5,
+      "invalid_recall": 1.0,
+      "localized": 5,
+      "localization_accuracy": 0.29411764705882354,
+      "joint_accuracy": 0.29411764705882354,
+      "missed_ids": [],
+      "repairs": {
+        "self_prompt": 0,
+        "self_prefix": 0,
+        "executor_prompt": 0,
+        "executor_prefix": 0
+      }
+    },
+    "panels": {
+      "generated": {
+        "direct_success": 42,
+        "self_repairs": {
+          "prompt": {
+            "final_success_count": 43,
+            "valid_destruction_count": 0,
+            "repair_success_count": 1,
+            "logical_repair_model_calls": 60
+          },
+          "prefix": {
+            "final_success_count": 42,
+            "valid_destruction_count": 0,
+            "repair_success_count": 0,
+            "logical_repair_model_calls": 60
+          }
+        }
+      },
+      "controlled_repair": {
+        "direct_success": 0,
+        "self_repairs": {
+          "prompt": {
+            "final_success_count": 35,
+            "valid_destruction_count": 0,
+            "repair_success_count": 35,
+            "logical_repair_model_calls": 60
+          },
+          "prefix": {
+            "final_success_count": 39,
+            "valid_destruction_count": 0,
+            "repair_success_count": 39,
+            "logical_repair_model_calls": 60
+          }
+        }
+      }
+    }
+  }
+}

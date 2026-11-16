@@ -1,0 +1,306 @@
+{
+  "challenge_sha256": "3995ad13a286568127a5bb75f9293842f86c3f461ce36b7bcd4411aa9f7c1267",
+  "generator_fingerprint": "0353e284c72beeae4337396e074d27e7043fd550b24cbee5d11fc43b6efbd32c",
+  "outputs": [
+    {
+      "sample_id": "sample_735e6632524b7f432b6421b2",
+      "candidate": "right right right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_8fdd0ff20a72367800fc2462",
+      "candidate": "right right right",
+      "truth": "invalid | step=2 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_738a2a8822c32b10651614e6",
+      "candidate": "right right right",
+      "truth": "invalid | step=2 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_a6ba485100e6cfddef89426e",
+      "candidate": "down down left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_4a1cf5ccb1f3656fe723de39",
+      "candidate": "up up up up right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_d5ecfa85cd3fe19a0aeabb48",
+      "candidate": "down left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_9f4b332905eebd4ab1cd9584",
+      "candidate": "down down right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_fe6aea4b2a60db091d2586d7",
+      "candidate": "down down down left left",
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_16a8ee154439de5cdf3780fb",
+      "candidate": "right right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_b08506e0c04514e0acfb8b75",
+      "candidate": "down down right right right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_14b9f326772fa9da422e081f",
+      "candidate": "up up up left",
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_5e6294249768daa99f5808b0",
+      "candidate": "down right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_ccd8877a07bbb81dd1d355e5",
+      "candidate": "up right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_cb0321d5da030dc7ed6fc5ab",
+      "candidate": "up up up up right right right",
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_51543359ddcc525c686ec199",
+      "candidate": "right right right right",
+      "truth": "invalid | step=2 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_fdad1c465a4b314465f84758",
+      "candidate": "down down down right right right right",
+      "truth": "invalid | step=3 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_7cda17e0c463cd34d226cdce",
+      "candidate": "up up right right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_69df5b3508b395a0eea02e5a",
+      "candidate": "up up left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_011cd66cc733da82676838cc",
+      "candidate": "down down right right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_24004d2195731b6e21636fbb",
+      "candidate": "up up up up left left left",
+      "truth": "invalid | step=8 | reason=goal_not_reached"
+    },
+    {
+      "sample_id": "sample_9e501cf25b5721d689b70f03",
+      "candidate": "up left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_f6c392de86be8a0a98e1f0cd",
+      "candidate": "up up left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_0d17e4eb285c68df89e1ee17",
+      "candidate": "up up left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_98e6e3a25f8292fc24e34be6",
+      "candidate": "up up up up up left left left left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_5ade045de6da0d2bb483b9b4",
+      "candidate": "up up left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_ba5b248e44c0146a3ff30d9c",
+      "candidate": "right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_c4e05d9ee6e51fc02c74a452",
+      "candidate": "up right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_afc5b5bf219b401e658452e3",
+      "candidate": "right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_12c002949313f835de136228",
+      "candidate": "down down down down right right right right right",
+      "truth": "invalid | step=10 | reason=goal_not_reached"
+    },
+    {
+      "sample_id": "sample_d703bb9ec8025c013445ef88",
+      "candidate": "up up up up",
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_0615e5e166e647265067ae54",
+      "candidate": "up up left left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_04cb9ee64480135c868bd088",
+      "candidate": "left left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_8749a1a129fea8370815d864",
+      "candidate": "up up up up left left left left",
+      "truth": "invalid | step=4 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_caffe0db041a01e01e2a7415",
+      "candidate": "down down down right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_64ab2060cb82d5d7b67c2d3e",
+      "candidate": "down left left left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_50446e70c4fc0c9b517b0438",
+      "candidate": "down down",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_b4389da2cb51649ff2f57aa9",
+      "candidate": "down down left left left left",
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_d5cf32fc80afa85d5a143ca8",
+      "candidate": "up up right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_2a6655c5c0e50d4236a0d6a4",
+      "candidate": "down right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_abe8728295d594b7f05a1107",
+      "candidate": "down down down right right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_ac70c1341e181e1613911efb",
+      "candidate": "right right right right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_8450922734d50673d5656d4a",
+      "candidate": "up left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_ad97fa6e8c79ce3b3ea47b78",
+      "candidate": "up up up left",
+      "truth": "invalid | step=3 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_dfce3c28c2776cc94902456a",
+      "candidate": "down down down left left left left left left",
+      "truth": "invalid | step=2 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_bce6fa0a066b445b535e73a6",
+      "candidate": "up up",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_43141510a95e23337856b387",
+      "candidate": "down down",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_b9782f0d72356f5e5ba9a6d4",
+      "candidate": "down left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_8617653ee3b9fbf5ccf2d0ad",
+      "candidate": "up up up up up right",
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_39645a1324eaf5ad7f56f29f",
+      "candidate": "up up up up left left",
+      "truth": "invalid | step=3 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_ba38aa28e88f86facb93cc1d",
+      "candidate": "down down down down left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_34467160b508e2f48bc48af4",
+      "candidate": "up up up right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_0e6e873a00eb42040c50c175",
+      "candidate": "down right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_50fbaa61818c268caf252fd4",
+      "candidate": "down down down down right",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_654865eca8f52ce85f377157",
+      "candidate": "up left",
+      "truth": "invalid | step=2 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_0b7cead7fb060b6daef150e1",
+      "candidate": "up up left",
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_e4f40e12df9424a2d0638991",
+      "candidate": "down left left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_7dcb0cb80d2b4323ef62d5cd",
+      "candidate": "down down left",
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_6c8c88dc8b8367dc0f6396ad",
+      "candidate": "up up up up up right right right",
+      "truth": "invalid | step=3 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_183ab9a3b82bb51ddbc7e568",
+      "candidate": "down down down left left left left left left",
+      "truth": "invalid | step=9 | reason=out_of_bounds"
+    },
+    {
+      "sample_id": "sample_67fc0208a18a0d2dcd85bf2d",
+      "candidate": "down down left left",
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    }
+  ]
+}

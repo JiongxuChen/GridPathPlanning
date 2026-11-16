@@ -1,0 +1,789 @@
+{
+  "source": "tokenizer_only_no_model_calls",
+  "challenge_sha256": "038d64a6343ca31104f09b4206ab466d5b6db12c2e02d7e98fc797b570183e9c",
+  "verifier_fingerprint": "5a1d5d12e6e39deaf7a4e3a4ab83f5beeb2b7835d7e209003df02b60d702f365",
+  "source_limit": 2048,
+  "action_limit": 72,
+  "cases": [
+    {
+      "sample_id": "sample_1200d46b1e91d06c9f3576c7",
+      "group": "long_valid_6",
+      "base_actions": 3,
+      "max_accepted": {
+        "actions": 39,
+        "input_tokens": 2040,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 41,
+        "input_tokens": 2140,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_c42171e70a6e1827d0c74724",
+      "group": "long_valid_6",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1982,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2084,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_6015504c666874a05b68047d",
+      "group": "long_valid_6",
+      "base_actions": 6,
+      "max_accepted": {
+        "actions": 36,
+        "input_tokens": 1961,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 38,
+        "input_tokens": 2065,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_97344cac9dfb180844809a81",
+      "group": "long_valid_6",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1998,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2102,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_9773dea98e4478c259316366",
+      "group": "long_valid_6",
+      "base_actions": 6,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2006,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2107,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_1e782cb98076ad55a11d2465",
+      "group": "long_valid_6",
+      "base_actions": 2,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2012,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2113,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_c214f3e47aebb41ca5f83f4c",
+      "group": "long_valid_6",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2031,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2133,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_8b73b1a4c8176434ee75a81f",
+      "group": "long_valid_6",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2009,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2110,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_41c614654e6825ca69063a63",
+      "group": "long_valid_6",
+      "base_actions": 7,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1954,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2054,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_4e8760950d69faa803abe2d7",
+      "group": "long_valid_6",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2017,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2119,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_fd9af9f71d6977f352bd3e2c",
+      "group": "long_valid_6",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1980,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2082,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_5d64c1b9622c9e45e93e45a7",
+      "group": "long_valid_6",
+      "base_actions": 8,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1999,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2099,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_f8dcc75002ccf9e108851099",
+      "group": "long_valid_6",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2014,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2115,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_edeb6951c7e9deda1f2a86a1",
+      "group": "long_valid_6",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1952,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2052,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_699e96cbca2d86220caccbae",
+      "group": "long_valid_6",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1950,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2050,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_7ee91637c049d6be39b0f863",
+      "group": "long_valid_6",
+      "base_actions": 3,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1966,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2067,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_b02dbe7537a7b993b99fbb86",
+      "group": "long_valid_6",
+      "base_actions": 8,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2023,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2125,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_adc098df0fe08c50be79a5aa",
+      "group": "long_valid_6",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 39,
+        "input_tokens": 2031,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 41,
+        "input_tokens": 2131,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_2449b1e8ded5ce52e4f1611c",
+      "group": "long_valid_6",
+      "base_actions": 6,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1982,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2082,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_c5696e665cb9726c645ea5e2",
+      "group": "long_valid_6",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1960,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2061,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_aeb3dcd383a78767bc06ec91",
+      "group": "late_collision_6",
+      "base_actions": 7,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1958,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2058,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_adee52f047065725804f060b",
+      "group": "late_collision_6",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 39,
+        "input_tokens": 2043,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 41,
+        "input_tokens": 2143,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_5d5169de59c7028874153a98",
+      "group": "late_collision_6",
+      "base_actions": 7,
+      "max_accepted": {
+        "actions": 39,
+        "input_tokens": 2036,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 41,
+        "input_tokens": 2136,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_da91c7cbd8c8eae82d3567f2",
+      "group": "late_collision_6",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 39,
+        "input_tokens": 2048,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 41,
+        "input_tokens": 2148,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_54091508dec1225f7d760d0e",
+      "group": "late_collision_6",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 36,
+        "input_tokens": 1981,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 38,
+        "input_tokens": 2086,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_0de877685f9cbb22027f04b4",
+      "group": "late_collision_6",
+      "base_actions": 6,
+      "max_accepted": {
+        "actions": 36,
+        "input_tokens": 1964,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 38,
+        "input_tokens": 2069,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_e56973b3fc79462091cc45c3",
+      "group": "late_collision_6",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 2007,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2111,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_907f9c726ce3616443b896ff",
+      "group": "late_collision_6",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1989,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2089,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_c57ebd43fe5a3d6f4e9f85c8",
+      "group": "late_collision_6",
+      "base_actions": 3,
+      "max_accepted": {
+        "actions": 39,
+        "input_tokens": 2042,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 41,
+        "input_tokens": 2142,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_f7294aa573ed99e52b3be2b3",
+      "group": "late_collision_6",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1997,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2097,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_5b0a0be9640a1435da477d33",
+      "group": "late_collision_6",
+      "base_actions": 7,
+      "max_accepted": {
+        "actions": 39,
+        "input_tokens": 2041,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 41,
+        "input_tokens": 2141,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_bc244f65fdb72a051f34d111",
+      "group": "late_collision_6",
+      "base_actions": 7,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 2004,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2108,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_972de65e626545a9fa836b8c",
+      "group": "late_collision_6",
+      "base_actions": 2,
+      "max_accepted": {
+        "actions": 36,
+        "input_tokens": 1957,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 38,
+        "input_tokens": 2061,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_25c320ae9093c5cb048eae18",
+      "group": "late_collision_6",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1999,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2099,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_23b7425c56a5dfaacab3f3d6",
+      "group": "late_collision_6",
+      "base_actions": 6,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1983,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2083,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_968929663756f284ae4476ec",
+      "group": "late_collision_6",
+      "base_actions": 8,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2006,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2106,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_762b2286624f21dc6e0d05f7",
+      "group": "late_collision_6",
+      "base_actions": 2,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2001,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2101,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_77c85d9f63e959b59d9f8d2e",
+      "group": "late_collision_6",
+      "base_actions": 6,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1998,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2098,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_711ad72ea3c51600ad30f4b7",
+      "group": "late_collision_6",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2017,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2118,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_d3ee9448f2e8edd812327cb9",
+      "group": "late_collision_6",
+      "base_actions": 7,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 2010,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2114,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_65f6126b31bc477c7d64020e",
+      "group": "token_boundary",
+      "base_actions": 2,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1992,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2092,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_e3b58ca7516c83c54e24e7fb",
+      "group": "token_boundary",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2034,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2136,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_6283f1e2e138535e2b4177b5",
+      "group": "token_boundary",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1969,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2071,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_45833213467d1e575194d3a7",
+      "group": "token_boundary",
+      "base_actions": 3,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1972,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2074,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_77bce6b85bdb726d466104de",
+      "group": "token_boundary",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 39,
+        "input_tokens": 2047,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 41,
+        "input_tokens": 2147,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_c28241be2fc1f0724fc68835",
+      "group": "token_boundary",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1993,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2093,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_b9bc3e26cf6576239e012472",
+      "group": "token_boundary",
+      "base_actions": 9,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1977,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2078,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_5304c299584cba5e20bf268f",
+      "group": "token_boundary",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 39,
+        "input_tokens": 2044,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 41,
+        "input_tokens": 2144,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_ef8b49f0d8512710b8b3bee5",
+      "group": "token_boundary",
+      "base_actions": 5,
+      "max_accepted": {
+        "actions": 37,
+        "input_tokens": 1969,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 39,
+        "input_tokens": 2071,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_8f1f42d697bfb634e0ef6788",
+      "group": "token_boundary",
+      "base_actions": 4,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1993,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2093,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_ef64000cef1b782217ba47b6",
+      "group": "token_boundary",
+      "base_actions": 6,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 2030,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2132,
+        "accepted": false
+      }
+    },
+    {
+      "sample_id": "sample_3399de99ecb745a0b75b6cba",
+      "group": "token_boundary",
+      "base_actions": 6,
+      "max_accepted": {
+        "actions": 38,
+        "input_tokens": 1989,
+        "accepted": true
+      },
+      "first_refused": {
+        "actions": 40,
+        "input_tokens": 2089,
+        "accepted": false
+      }
+    }
+  ]
+}

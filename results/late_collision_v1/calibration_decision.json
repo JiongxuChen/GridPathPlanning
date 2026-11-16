@@ -1,0 +1,87 @@
+{
+  "calibration_sha256": "982740a9da5f14f0a64b31812bce8d43c0d5a8dd9ec06536d0e775c3bdc71b0a",
+  "protocol_sha256": "c1ed3ea674317c2f0461537e4933a10a124fb9d42568a9508b5e13ea8ef8227f",
+  "baseline": {
+    "short_valid": 40,
+    "long_valid": 40,
+    "early_collision": 39,
+    "late_collision": 38
+  },
+  "original_dev_baseline": {
+    "fixed_V80": 80,
+    "natural_G60": 60
+  },
+  "thresholds": [
+    {
+      "threshold": 0.5,
+      "calibration": {
+        "short_valid": 40,
+        "long_valid": 40,
+        "early_collision": 39,
+        "late_collision": 38
+      },
+      "original_dev": {
+        "fixed_V80": 80,
+        "natural_G60": 60
+      },
+      "eligible": false
+    },
+    {
+      "threshold": 0.7,
+      "calibration": {
+        "short_valid": 40,
+        "long_valid": 40,
+        "early_collision": 39,
+        "late_collision": 39
+      },
+      "original_dev": {
+        "fixed_V80": 80,
+        "natural_G60": 60
+      },
+      "eligible": true
+    },
+    {
+      "threshold": 0.9,
+      "calibration": {
+        "short_valid": 40,
+        "long_valid": 40,
+        "early_collision": 40,
+        "late_collision": 40
+      },
+      "original_dev": {
+        "fixed_V80": 80,
+        "natural_G60": 60
+      },
+      "eligible": true
+    },
+    {
+      "threshold": 0.95,
+      "calibration": {
+        "short_valid": 40,
+        "long_valid": 40,
+        "early_collision": 40,
+        "late_collision": 40
+      },
+      "original_dev": {
+        "fixed_V80": 80,
+        "natural_G60": 60
+      },
+      "eligible": true
+    },
+    {
+      "threshold": 0.99,
+      "calibration": {
+        "short_valid": 40,
+        "long_valid": 40,
+        "early_collision": 40,
+        "late_collision": 40
+      },
+      "original_dev": {
+        "fixed_V80": 80,
+        "natural_G60": 60
+      },
+      "eligible": true
+    }
+  ],
+  "selected": 0.7
+}

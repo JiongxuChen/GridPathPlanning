@@ -1,0 +1,11 @@
+{
+  "method": "local_occupancy_v1",
+  "split": "test_ood",
+  "generator_fingerprint": "0353e284c72beeae4337396e074d27e7043fd550b24cbee5d11fc43b6efbd32c",
+  "verifier_fingerprint": "5a1d5d12e6e39deaf7a4e3a4ab83f5beeb2b7835d7e209003df02b60d702f365",
+  "dataset_sha256": "c18b42d36587f1aa14f925b503e1cdabe30d3e1c102c5cd0eac6dde7a35afe4e",
+  "robustness_sha256": "40f3d3ca58041edf557b58543eb9e0c375fce84ec24a6a9b5629ae5680446c60",
+  "evaluator_sha256": "64757c7bafda0f626c190bcf0e464e6fa8111feadc315efbb34c6c50e48bad8d",
+  "protocol": "historical_G60_V80_R60_four_routes_one_attempt",
+  "fingerprint": "4e369e474823e83f2c1964d1c913b9416cd00848ef6adcf5e910effdc747b9d2"
+}

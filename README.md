@@ -12,7 +12,7 @@
 | v2 | G3000＋V1000，独立G与朴素文本V | 模型V／执行器对照 | 两种反馈×提示／前缀四组合 | 四模型dev、单错、双错，各200实例 |
 | improvement_verify_v1 | 在v2基础上复用其G，替换为结构化逐步V | 神经模型逐步预测，无执行器代答 | 与v2相同四组合 | T5-base主线及四模型补充，三个分区完整 |
 
-**改进的直接对照是v2，而非v1。** 改进与v2使用相同数据、G权重、候选和评分；只改变V方案。v1与v2的数据预算分配和面板不同，不是单因素消融。聚焦消融尚未完成。
+**改进的直接对照是v2，而非v1。** 改进与v2使用相同数据、G权重、候选和评分；只改变V方案。v1与v2的数据预算分配和面板不同，不是单因素消融。其后的聚焦消融、自然碰撞、局部占据及归因研究另见[研究归档](analysis/README.md)，不改写上述原始对照身份。
 
 ## 3. 主要结果
 
@@ -27,6 +27,8 @@ T5-base单错测试：
 
 验证和受控修复明显改善，自然生成碰撞的诊断及反馈利用仍较弱。结果文件包含分母、失败类型、逐例轨迹及空后缀／神经后缀贡献；不能只凭单项分数评价整体规划能力。
 
+后续在相同 V1000、T5-base、750 更新预算上，仅更换验证器输入为完整 3×3 局部占据表示；原结构化 V 的开发固定 V80 碰撞联合为 4/10，局部 V 为 10/10。局部 V 在已公开 ID/OOD 的固定 V80 无效首错／类型联合均为 40/40；这属于历史配对，不是新盲测。随后新增、先冻结后推理的 6×6 封存评价为完整标签 157/160、分类 160/160、无效首错／类型联合 97/100；三个错误均为晚碰撞早一步。该面板在既有研究结果可见后设计，详见[封存报告](analysis/sealed_verifier_v1/report.md)。
+
 ## 4. 文档与结果入口
 
 - [phase1：环境、模型与上游版本准备](docs/phase1.md)、[phase2：执行器、BFS与评分](docs/phase2.md)。
@@ -34,10 +36,11 @@ T5-base单错测试：
 - [v1数据](docs/phase3.md)、[v1执行器基线](docs/phase4.md)。
 - [v2数据](docs/phase3_v2.md)、[v2模型验证基线](docs/phase4_v2.md)。
 - [Part 2：T5-base主线](docs/improvement_verify_t5base_v1.md)、[四模型补充](docs/improvement_verify_all_v1.md)。
+- [后续验证器研究归档](analysis/README.md)：聚焦消融、自然碰撞、局部占据、晚碰撞、表示归因及新增封存评价；这些并非原公开实验的增补盲测。
 - `results/v1/`、`results/v2/`、`results/improvement_verify_v1/`：CSV、JSON、逐例预测与审查证据。
 - `results/comparisons/`：v2与改进的配对结果；`results/training_summary.json`：轻量训练及成本摘要。
 
-公开副本不包含作者的本机路径、环境转储、归档目录、连接配置、权重、检查点、优化器、日志或模型推理缓存。保存的原始预测和指标保持原值；发布副本的通用运行入口与原实验的源码指纹可能不同，变化见`manifests/public_release.json`，不将公开副本伪装为原训练运行。
+原始 `publication/` 发布副本不包含作者的本机路径、环境转储、归档目录、连接配置、权重、检查点、优化器、日志或模型推理缓存；后续公开的 `analysis/` 是独立研究归档，不改变原发布清单。保存的原始预测和指标保持原值；原发布副本的通用运行入口与原实验的源码指纹可能不同，变化见`manifests/public_release.json`，不将公开副本伪装为原训练运行。
 
 ## 5. 环境与权重
 
@@ -52,7 +55,7 @@ python -m pip install -r requirements.txt safetensors==0.8.0 \
 python -m pip install --no-deps --no-build-isolation -e .
 ```
 
-四个原始检查点的仓库、固定revision和文件SHA256在`manifests/models.json`、`flan_models.json`。在独立复现目录运行`bash scripts/run_phase4_v1.sh prepare all`下载并校验。使用下载设备自己的网络与HF镜像，不需要GitHub代理。微调权重未在Git发布、没有公共下载地址；需要重新训练，不能把预训练权重当作已微调权重。
+四个原始检查点的仓库、固定revision和文件SHA256在`manifests/models.json`、`flan_models.json`。在独立复现目录运行`bash scripts/run_phase4_v1.sh prepare all`下载并校验。使用下载设备自己的网络与HF镜像，不需要GitHub代理。微调权重未在公开副本发布、没有公共下载地址；需要重新训练，不能把预训练权重当作已微调权重。后续局部占据等研究的检查点目前仅在远端隔离副本，本地归档保存代码、冻结数据、逐例预测和来源审计，不等同于权重备份。
 
 ## 6. 查阅与离线复核
 

@@ -1,0 +1,89 @@
+{
+  "schema_version": "gridpath.checkpoint.v1",
+  "created_at": "2026-11-15T10:52:56.585636+00:00",
+  "state": {
+    "global_step": 750,
+    "consumed_examples": 3000,
+    "evaluated_steps": [
+      250,
+      500,
+      750
+    ],
+    "role": "verify"
+  },
+  "binding": {
+    "fingerprint": "5a1d5d12e6e39deaf7a4e3a4ab83f5beeb2b7835d7e209003df02b60d702f365",
+    "experiment": "local_occupancy_v1",
+    "baseline_binding": "0a2d6e9ba33b31b52736db4a857b95324b4d7463c288199819d78170cd553c5e",
+    "config": {
+      "version": "gridpath.full_run.1",
+      "seed": 42,
+      "train_generate": 3000,
+      "train_verify": 1000,
+      "split_panels": {
+        "generate": 60,
+        "verify": 80,
+        "repair": 60
+      },
+      "max_total_epochs": 3,
+      "effective_batch_size": 4,
+      "micro_batch_size": 4,
+      "precision": "bf16",
+      "learning_rate": 0.0001,
+      "head_learning_rate": 0.001,
+      "weight_decay": 0.01,
+      "warmup_updates": 12,
+      "max_grad_norm": 1.0,
+      "pilot_updates": 10,
+      "checkpoint_every_updates": 25,
+      "max_source_tokens": 512,
+      "verify_source_tokens": 2048,
+      "max_plan_actions": 72,
+      "session_wall_seconds": 3600,
+      "gpu_hours_cap": 20,
+      "checkpoint_policy": "fixed_final_epoch_latest",
+      "test_seed": 4202026,
+      "method": "improvement_verify_v1",
+      "stage": "Part 2",
+      "verifier": "structured_step_tagger",
+      "roles": [
+        "verify"
+      ],
+      "generator_source": "v2",
+      "verification_target_tokens": 64,
+      "path_target_tokens": 256,
+      "model_id": "google-t5/t5-base",
+      "revision": "a9723ea7f1b39c1eae772870f3b547bf6ef7e6c1",
+      "model_directory": "models/t5-base",
+      "model_key": "t5_base",
+      "role": "verify",
+      "run_directory": "checkpoints/local_occupancy_v1/t5_base/verify",
+      "max_updates": 750,
+      "evaluate_steps": [
+        250,
+        500,
+        750
+      ],
+      "max_target_tokens": 64,
+      "generation_tokens": 64,
+      "structured": true
+    },
+    "train_sample_ids": "0bcc17b69193164fe7a895b7ca3c8273329325677717f426efae2591670e46c6",
+    "representation_sha256": "df1adfc9923065cc8cc8d65e5d27c59cab56138ae447748c4d0071aedd5bb1f5",
+    "training_entry_sha256": "357abac245211d1795d8f90aaa90011f8ebd0fadaf3150b683c03953d92d9d40",
+    "packages": {
+      "torch": "2.5.1+cu121",
+      "transformers": "4.40.1",
+      "numpy": "1.26.4"
+    }
+  },
+  "files": {
+    "tokenizer.json": "71c33c3bf57bf2e19b4f8ac686ad8d182a79f7cd1a4921889437c453420223f1",
+    "tokenizer_config.json": "8c1cf29a9c17cf6b1ffd9f4234340685169993d13e55239e533d567498d63dbd",
+    "spiece.model": "d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86",
+    "model.safetensors": "23d96f5d072e76cab17c147539d2f6586ad6b65a56529f5f2b56023a47067b09",
+    "training_state.pt": "ee6cd391bae0881e367eca78a3fcdb21e1e2d1f5f08740276da1256569d61deb",
+    "config.json": "2428d4baf4e90fcc7dca08177586ae204db3301de3e9d43adfe69cda2b34ec0c",
+    "special_tokens_map.json": "5c87151ef0f72a99d1f766a4c418bd2a1f90aaa30a8e22fe5eca9641daebb64f"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "decision_sha256": "07215e324457d23ad73b288de385bc93297b0553dc41f35bca076d285935e032",
+  "test_panel_sha256": "288ad72967b8a0b3e7e1cd7fbdc9593c08e7d6ea4bf585cd6f2461db361f602c",
+  "paired_predictions_sha256": "b2a5204ead572c134f173a41c209a32f57defde39b375279c5ca94a5a1109259",
+  "threshold": 0.7,
+  "baseline": {
+    "short_valid": 20,
+    "long_valid": 20,
+    "early_collision": 19,
+    "late_collision": 18
+  },
+  "gated": {
+    "short_valid": 20,
+    "long_valid": 20,
+    "early_collision": 19,
+    "late_collision": 19
+  },
+  "changed": {
+    "short_valid": [],
+    "long_valid": [],
+    "early_collision": [],
+    "late_collision": [
+      {
+        "sample_id": "sample_dffebefd0a3d6bde5d4f461b",
+        "truth": "invalid | step=16 | reason=obstacle_collision",
+        "argmax": "invalid | step=15 | reason=obstacle_collision",
+        "gate": "invalid | step=16 | reason=obstacle_collision"
+      }
+    ]
+  }
+}
