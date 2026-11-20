@@ -55,7 +55,11 @@
 [检查点元数据](../../results/sealed_verifier_v1/checkpoint_metadata.json)
 保留 `model.safetensors` 等文件的 SHA256；评价前逐文件
 校验远端检查点，元数据不是权重副本。
-原微调权重仅在远端隔离副本，未随本地归档或公开副本分发。
+原微调权重原先仅在远端隔离副本
+`/home/user/GridPathPlanning-local-occupancy-v1/checkpoints/local_occupancy_v1/t5_base/verify/latest`，
+2026-11-20 已将同一份权重与训练状态保存到本地
+`checkpoints/local_occupancy_v1/t5_base/verify` 并逐文件校验；
+仍不随 Git／公开副本分发。
 
 ## 结论
 

@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "fingerprint": "f2958feb0633b1506de68e37c0854300dddd0f027dbb4ec6b613cc2131af1207",
+  "state": {
+    "global_step": 750,
+    "consumed_examples": 3000,
+    "evaluated_steps": [
+      250,
+      500,
+      750
+    ],
+    "role": "verify"
+  },
+  "seconds": 312.06905199999983,
+  "peak_allocated_bytes": 7160455680
+}

@@ -1,0 +1,208 @@
+{
+  "fixed_V80": {
+    "counts": {
+      "valid": {
+        "total": 40,
+        "before_joint": 40,
+        "after_joint": 40,
+        "before_detected": 0,
+        "after_detected": 0
+      },
+      "obstacle_collision": {
+        "total": 10,
+        "before_joint": 4,
+        "after_joint": 10,
+        "before_detected": 6,
+        "after_detected": 10
+      },
+      "out_of_bounds": {
+        "total": 10,
+        "before_joint": 10,
+        "after_joint": 10,
+        "before_detected": 0,
+        "after_detected": 0
+      },
+      "invalid_action_token": {
+        "total": 10,
+        "before_joint": 10,
+        "after_joint": 10,
+        "before_detected": 0,
+        "after_detected": 0
+      },
+      "goal_not_reached": {
+        "total": 10,
+        "before_joint": 10,
+        "after_joint": 10,
+        "before_detected": 0,
+        "after_detected": 0
+      }
+    },
+    "changed": [
+      {
+        "sample_id": "sample_ec898e84df3b4fb18a216dd5",
+        "truth": "invalid | step=5 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=5 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_925f9aa846b968e5aad8042f",
+        "truth": "invalid | step=5 | reason=obstacle_collision",
+        "before": "invalid | step=7 | reason=goal_not_reached",
+        "after": "invalid | step=5 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_d7d064b7086fa93077ccfe97",
+        "truth": "invalid | step=3 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=3 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_6b2354e23f46577a1c18aa97",
+        "truth": "invalid | step=2 | reason=obstacle_collision",
+        "before": "invalid | step=3 | reason=goal_not_reached",
+        "after": "invalid | step=2 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_7c1e2ae68803e4868a18eb21",
+        "truth": "invalid | step=1 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=1 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_8d1d87b362136f842cb70d89",
+        "truth": "invalid | step=1 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=1 | reason=obstacle_collision"
+      }
+    ],
+    "interface_failures": 0
+  },
+  "natural_G60": {
+    "counts": {
+      "valid": {
+        "total": 42,
+        "before_joint": 42,
+        "after_joint": 42,
+        "before_detected": 0,
+        "after_detected": 0
+      },
+      "obstacle_collision": {
+        "total": 17,
+        "before_joint": 3,
+        "after_joint": 16,
+        "before_detected": 5,
+        "after_detected": 16
+      },
+      "out_of_bounds": {
+        "total": 0,
+        "before_joint": 0,
+        "after_joint": 0,
+        "before_detected": 0,
+        "after_detected": 0
+      },
+      "invalid_action_token": {
+        "total": 0,
+        "before_joint": 0,
+        "after_joint": 0,
+        "before_detected": 0,
+        "after_detected": 0
+      },
+      "goal_not_reached": {
+        "total": 1,
+        "before_joint": 1,
+        "after_joint": 1,
+        "before_detected": 0,
+        "after_detected": 0
+      }
+    },
+    "changed": [
+      {
+        "sample_id": "sample_f9bfd8d99d8252bdc9355e40",
+        "truth": "invalid | step=4 | reason=obstacle_collision",
+        "before": "invalid | step=5 | reason=goal_not_reached",
+        "after": "invalid | step=4 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_2dc5bdc2a177c6f6f3a6d9ee",
+        "truth": "invalid | step=4 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=4 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_28c383549793093a14feac9e",
+        "truth": "invalid | step=2 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=2 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_aae6bd3a9559c9088a02b490",
+        "truth": "invalid | step=1 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=1 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_5cb8a0d8629e24724bf5390d",
+        "truth": "invalid | step=2 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=2 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_ca5d37e2f3a7ff74885455e3",
+        "truth": "invalid | step=1 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=1 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_af539f963f7a18ad5cd81a9e",
+        "truth": "invalid | step=3 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=3 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_12e4181c8bf0e9e7c603e0f7",
+        "truth": "invalid | step=2 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=2 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_afe0d3669483119d7f4f60a9",
+        "truth": "invalid | step=2 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=2 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_38523af7c1c9356c49cfd083",
+        "truth": "invalid | step=2 | reason=obstacle_collision",
+        "before": "invalid | step=8 | reason=out_of_bounds",
+        "after": "invalid | step=2 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_441b0deea6e5a8332622b3da",
+        "truth": "invalid | step=1 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=1 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_46dfff338ebbc4672da34d33",
+        "truth": "invalid | step=2 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=2 | reason=obstacle_collision"
+      },
+      {
+        "sample_id": "sample_2e4f4cbb526018266f66864a",
+        "truth": "invalid | step=1 | reason=obstacle_collision",
+        "before": "valid",
+        "after": "invalid | step=1 | reason=obstacle_collision"
+      }
+    ],
+    "interface_failures": 0
+  },
+  "guard": {
+    "natural_collision_joint_improves": true,
+    "no_valid_false_positives": true,
+    "other_reasons_no_regression": true,
+    "fixed_classification_no_regression": true,
+    "no_interface_failures": true
+  },
+  "eligible_for_fresh_holdout": true
+}

@@ -77,9 +77,7 @@ ID 为 37/60、37/60；OOD 为 36/60、40/60。
 产物：[冻结挑战](robustness_v1_challenge.json)、
 [逐例鲁棒性预测](robustness_v1_predictions.json)、
 [历史评价脚本](historical_pipeline.py)、
-[ID 汇总](historical_pipeline/test_id/summary.json)、
-[OOD 汇总](historical_pipeline/test_ood/summary.json)。
-历史 ID/OOD 的逐任务记录保留于隔离归档，公开分支
-仅上传汇总与来源审计，不包含推理缓存。
+[ID 逐例与汇总](historical_pipeline/test_id/summary.json)、
+[OOD 逐例与汇总](historical_pipeline/test_ood/summary.json)。
 隔离副本运行，原主复现及旧权重未修改；远端 CPU 回归
 153 项通过，评测会话均已结束。

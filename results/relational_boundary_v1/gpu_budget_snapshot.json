@@ -1,0 +1,333 @@
+{
+  "schema_version": "gridpath.gpu_budget.v1",
+  "entries": [
+    {
+      "id": "21eba85bc14c4875a48e48e2debad09a",
+      "label": "v2:t5_base:generate:pilot",
+      "status": "complete",
+      "started_at": "2026-11-15T05:20:24.719357+00:00",
+      "wall_seconds": 18.835051703999852,
+      "finished_at": "2026-11-15T05:20:43.554340+00:00"
+    },
+    {
+      "id": "10da48a8227a4327bf1fba8e1971c5d7",
+      "label": "v2:t5_base:generate:train",
+      "status": "complete",
+      "started_at": "2026-11-15T05:20:54.429657+00:00",
+      "wall_seconds": 1764.058396112,
+      "finished_at": "2026-11-15T05:50:18.487989+00:00"
+    },
+    {
+      "id": "512835a304514fc396db176e7d9ed725",
+      "label": "v2:t5_base:verify:pilot",
+      "status": "complete",
+      "started_at": "2026-11-15T05:50:30.057962+00:00",
+      "wall_seconds": 16.315278201999718,
+      "finished_at": "2026-11-15T05:50:46.373163+00:00"
+    },
+    {
+      "id": "fe69493fe1364b6890300554669c5141",
+      "label": "v2:t5_base:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-15T05:50:58.388631+00:00",
+      "wall_seconds": 670.6863116920003,
+      "finished_at": "2026-11-15T06:02:09.074881+00:00"
+    },
+    {
+      "id": "573e88549c244626a994c04da8e2ce74",
+      "label": "v2:t5_base:dev",
+      "status": "complete",
+      "started_at": "2026-11-15T07:14:54.041122+00:00",
+      "wall_seconds": 129.48862279700006,
+      "finished_at": "2026-11-15T07:17:03.529656+00:00"
+    },
+    {
+      "id": "aef4b25fa75e420a8de40b125c9ff8f8",
+      "label": "v2:t5_base:test_id",
+      "status": "complete",
+      "started_at": "2026-11-15T07:29:47.824261+00:00",
+      "wall_seconds": 130.2530310080001,
+      "finished_at": "2026-11-15T07:31:58.077234+00:00"
+    },
+    {
+      "id": "9eb308072c8c4f4799e8d8d5b77a5367",
+      "label": "v2:t5_base:test_ood",
+      "status": "complete",
+      "started_at": "2026-11-15T07:32:10.307610+00:00",
+      "wall_seconds": 141.86061217600036,
+      "finished_at": "2026-11-15T07:34:32.168149+00:00"
+    },
+    {
+      "id": "c432e78658e743988ed3976e78206e6e",
+      "label": "improvement_verify_v1:t5_base:verify:pilot",
+      "status": "complete",
+      "started_at": "2026-11-15T07:36:59.113175+00:00",
+      "wall_seconds": 13.479432033000194,
+      "finished_at": "2026-11-15T07:37:12.592544+00:00"
+    },
+    {
+      "id": "b3cc816b315f4a1482d1e5601bf5a59a",
+      "label": "improvement_verify_v1:t5_base:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-15T07:37:26.019443+00:00",
+      "wall_seconds": 287.6081507960007,
+      "finished_at": "2026-11-15T07:42:13.627534+00:00"
+    },
+    {
+      "id": "101c20fb239a480aae0c34c42b8d5be1",
+      "label": "improvement_verify_v1:t5_base:dev",
+      "status": "complete",
+      "started_at": "2026-11-15T07:44:48.043037+00:00",
+      "wall_seconds": 88.52928207599871,
+      "finished_at": "2026-11-15T07:46:16.572236+00:00"
+    },
+    {
+      "id": "ff4c1118bc4d4b0b94b131f3d11c0170",
+      "label": "improvement_verify_v1:t5_base:test_id",
+      "status": "complete",
+      "started_at": "2026-11-15T07:47:27.524504+00:00",
+      "wall_seconds": 78.8206897529999,
+      "finished_at": "2026-11-15T07:48:46.345056+00:00"
+    },
+    {
+      "id": "55621befd21c4485ae98b9db21fc2c48",
+      "label": "improvement_verify_v1:t5_base:test_ood",
+      "status": "complete",
+      "started_at": "2026-11-15T07:48:58.007996+00:00",
+      "wall_seconds": 86.77400850100094,
+      "finished_at": "2026-11-15T07:50:24.781941+00:00"
+    },
+    {
+      "id": "73bdcc06a997455ab6042f96afa25a12",
+      "label": "structured_pairs_v1:t5_base:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-19T12:30:43.458392+00:00",
+      "wall_seconds": 285.60602913,
+      "finished_at": "2026-11-19T12:35:29.064357+00:00"
+    },
+    {
+      "id": "0b8e46c779f54d5e88bfb16c3a738c3d",
+      "label": "structured_pairs_v1:t5_base:dev",
+      "status": "complete",
+      "started_at": "2026-11-19T12:35:48.971220+00:00",
+      "wall_seconds": 4.650944845999902,
+      "finished_at": "2026-11-19T12:35:53.622106+00:00"
+    },
+    {
+      "id": "3cd4a5966fb84c438646e7f4b59e9cbd",
+      "label": "structured_pairs_v1:holdout_G",
+      "status": "complete",
+      "started_at": "2026-11-19T12:39:56.614946+00:00",
+      "wall_seconds": 11.61184901799993,
+      "finished_at": "2026-11-19T12:40:08.226714+00:00"
+    },
+    {
+      "id": "ea94d37679c640e296d4a572c99620e5",
+      "label": "structured_pairs_v1:holdout_V",
+      "status": "failed",
+      "started_at": "2026-11-19T12:40:33.209460+00:00",
+      "wall_seconds": 0.7415104149999934,
+      "finished_at": "2026-11-19T12:40:33.950909+00:00"
+    },
+    {
+      "id": "1182015a2668418cab1c72c9289a1fd5",
+      "label": "structured_pairs_v1:holdout_V",
+      "status": "complete",
+      "started_at": "2026-11-19T12:41:24.874186+00:00",
+      "wall_seconds": 7.005448648999845,
+      "finished_at": "2026-11-19T12:41:31.879538+00:00"
+    },
+    {
+      "id": "f02f947f1b404627bec326897a625926",
+      "label": "structured_pairs_unpaired_v1:t5_base:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-19T12:46:31.593249+00:00",
+      "wall_seconds": 291.8974626690001,
+      "finished_at": "2026-11-19T12:51:23.490661+00:00"
+    },
+    {
+      "id": "1e365191b090495f9e72ac6ebf2cc142",
+      "label": "structured_pairs_unpaired_v1:t5_base:dev",
+      "status": "complete",
+      "started_at": "2026-11-19T12:51:44.409576+00:00",
+      "wall_seconds": 4.708754617000068,
+      "finished_at": "2026-11-19T12:51:49.118269+00:00"
+    },
+    {
+      "id": "9807051d7c2149b190634c35aa2ee00a",
+      "label": "structured_pairs_unpaired_v1:posthoc_holdout",
+      "status": "complete",
+      "started_at": "2026-11-19T12:52:48.165508+00:00",
+      "wall_seconds": 3.923244965000322,
+      "finished_at": "2026-11-19T12:52:52.088693+00:00"
+    },
+    {
+      "id": "942f476472424af08d071ca299eacd19",
+      "label": "structured_pairs_position_ablation_v1:t5_base:verify:train",
+      "status": "failed",
+      "started_at": "2026-11-20T07:10:34.338861+00:00",
+      "wall_seconds": 7.644164130999911,
+      "finished_at": "2026-11-20T07:10:41.982938+00:00"
+    },
+    {
+      "id": "3319414a726b4ad0ac571852b016c9d4",
+      "label": "structured_pairs_position_ablation_v1:t5_base:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-20T07:12:18.599628+00:00",
+      "wall_seconds": 321.925707427,
+      "finished_at": "2026-11-20T07:17:40.525265+00:00"
+    },
+    {
+      "id": "6d21580771cf47d88b43f7519ed19348",
+      "label": "structured_pairs_position_ablation_v1:public_development",
+      "status": "complete",
+      "started_at": "2026-11-20T07:18:15.507664+00:00",
+      "wall_seconds": 8.272006333000036,
+      "finished_at": "2026-11-20T07:18:23.779581+00:00"
+    },
+    {
+      "id": "f992ca4ed9ab49aba7efd1ab52ebdbf9",
+      "label": "structured_pairs_position_ablation_v1:posthoc_opened_holdout_not_new_blind_test",
+      "status": "complete",
+      "started_at": "2026-11-20T07:19:05.532435+00:00",
+      "wall_seconds": 5.648167867999973,
+      "finished_at": "2026-11-20T07:19:11.180503+00:00"
+    },
+    {
+      "id": "dd89c34677054bac8b49361b0acfa12c",
+      "label": "structured_pairs_multiseed_v1:holdout_G",
+      "status": "complete",
+      "started_at": "2026-11-20T07:33:03.039188+00:00",
+      "wall_seconds": 17.85919151600001,
+      "finished_at": "2026-11-20T07:33:20.898287+00:00"
+    },
+    {
+      "id": "3dded9d41b584652813b727d03b54f9c",
+      "label": "structured_pairs_multiseed_v1:seed_43:paired:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-20T07:33:53.564745+00:00",
+      "wall_seconds": 310.28130273000033,
+      "finished_at": "2026-11-20T07:39:03.845972+00:00"
+    },
+    {
+      "id": "152da9780738483d82cf922f4687ea41",
+      "label": "structured_pairs_multiseed_v1:seed_43:position_unpaired:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-20T07:39:50.677434+00:00",
+      "wall_seconds": 310.38681037900005,
+      "finished_at": "2026-11-20T07:45:01.064154+00:00"
+    },
+    {
+      "id": "995ddc41c5cf43b2aadde31845202eaf",
+      "label": "structured_pairs_multiseed_v1:seed_44:paired:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-20T07:45:38.486977+00:00",
+      "wall_seconds": 312.67445950599995,
+      "finished_at": "2026-11-20T07:50:51.161358+00:00"
+    },
+    {
+      "id": "87629c709b4340d8a03f3d6500691fef",
+      "label": "structured_pairs_multiseed_v1:seed_44:position_unpaired:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-20T07:51:30.611135+00:00",
+      "wall_seconds": 312.0930430200001,
+      "finished_at": "2026-11-20T07:56:42.704071+00:00"
+    },
+    {
+      "id": "cbcfc108e49348118560acc3b969eec7",
+      "label": "structured_pairs_multiseed_v1:fresh_V",
+      "status": "complete",
+      "started_at": "2026-11-20T07:57:43.624106+00:00",
+      "wall_seconds": 38.338874755000234,
+      "finished_at": "2026-11-20T07:58:21.962886+00:00"
+    },
+    {
+      "id": "a622b5ceb15a47d289a0d6307ad2865e",
+      "label": "relational_set_v1:t5_base:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-20T08:29:29.923797+00:00",
+      "wall_seconds": 317.2661332030002,
+      "finished_at": "2026-11-20T08:34:47.189848+00:00"
+    },
+    {
+      "id": "cf4966bc05724b3fadcaf3557e1ea8a7",
+      "label": "relational_set_v1:dev",
+      "status": "complete",
+      "started_at": "2026-11-20T08:35:21.666920+00:00",
+      "wall_seconds": 8.571749060999537,
+      "finished_at": "2026-11-20T08:35:30.238582+00:00"
+    },
+    {
+      "id": "9bd6712998534554b3684356727c2f84",
+      "label": "relational_set_v1:holdout_G",
+      "status": "complete",
+      "started_at": "2026-11-20T08:37:39.051447+00:00",
+      "wall_seconds": 22.162173855999754,
+      "finished_at": "2026-11-20T08:38:01.212163+00:00"
+    },
+    {
+      "id": "2661556e238d4521bc18d320988adeff",
+      "label": "relational_set_v1:fresh_V",
+      "status": "complete",
+      "started_at": "2026-11-20T08:38:43.043651+00:00",
+      "wall_seconds": 16.823882796999897,
+      "finished_at": "2026-11-20T08:38:59.867441+00:00"
+    },
+    {
+      "id": "bf57b2a74dc249728060443b1761751a",
+      "label": "relational_set_multiseed_v1:holdout_G",
+      "status": "complete",
+      "started_at": "2026-11-20T08:44:38.012946+00:00",
+      "wall_seconds": 22.25515414900019,
+      "finished_at": "2026-11-20T08:45:00.267984+00:00"
+    },
+    {
+      "id": "c95243e9bac245328ebcbb4019d52983",
+      "label": "relational_set_multiseed_v1:t5_base:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-20T08:45:30.705322+00:00",
+      "wall_seconds": 318.9523163829999,
+      "finished_at": "2026-11-20T08:50:49.657561+00:00"
+    },
+    {
+      "id": "7318be76cb014348834998f74ae4d4c9",
+      "label": "relational_set_multiseed_v1:t5_base:verify:train",
+      "status": "complete",
+      "started_at": "2026-11-20T08:51:33.053851+00:00",
+      "wall_seconds": 318.67930022899964,
+      "finished_at": "2026-11-20T08:56:51.733082+00:00"
+    },
+    {
+      "id": "030defc7c893488bb158ad4088b443d7",
+      "label": "relational_set_multiseed_v1:fresh_V",
+      "status": "complete",
+      "started_at": "2026-11-20T08:57:47.803073+00:00",
+      "wall_seconds": 33.18802320499981,
+      "finished_at": "2026-11-20T08:58:20.990987+00:00"
+    },
+    {
+      "id": "40ca796bc0914328af9f59955661b8e0",
+      "label": "relational_set_multiseed_v1:posthoc_channel",
+      "status": "complete",
+      "started_at": "2026-11-20T09:02:23.867040+00:00",
+      "wall_seconds": 27.90302849299951,
+      "finished_at": "2026-11-20T09:02:51.769979+00:00"
+    },
+    {
+      "id": "23add2093d3244a6a19b3d738a0c9186",
+      "label": "relational_boundary_v1:G",
+      "status": "complete",
+      "started_at": "2026-11-20T09:29:25.396941+00:00",
+      "wall_seconds": 9.451854147999256,
+      "finished_at": "2026-11-20T09:29:34.848710+00:00"
+    },
+    {
+      "id": "a31bc37531e44a94ba3c7ab6f5e514ea",
+      "label": "relational_boundary_v1:V",
+      "status": "complete",
+      "started_at": "2026-11-20T09:30:10.820854+00:00",
+      "wall_seconds": 23.551348851999137,
+      "finished_at": "2026-11-20T09:30:34.372068+00:00"
+    }
+  ]
+}

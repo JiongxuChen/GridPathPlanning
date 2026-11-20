@@ -1,0 +1,368 @@
+{
+  "challenge_sha256": "bc357e9022e526ed60f4928d88cc4c3a6de5cfc43a67d1c332c36d74860c25f6",
+  "generator_fingerprint": "0353e284c72beeae4337396e074d27e7043fd550b24cbee5d11fc43b6efbd32c",
+  "generator_weights_sha256": "2e3ffab1370bb0f912944e0a9038b5e852be560be570cfa79711ba90d902ed9e",
+  "model_calls": 40,
+  "outputs": [
+    {
+      "sample_id": "sample_182125fb8e7acae893ced17a",
+      "prediction": {
+        "text": "up up",
+        "generated_tokens": 3,
+        "failure": null
+      },
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_ebf3ef29ba1ff34c518fb617",
+      "prediction": {
+        "text": "down left",
+        "generated_tokens": 3,
+        "failure": null
+      },
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_04b53d0c859d47898caa39b4",
+      "prediction": {
+        "text": "down left left",
+        "generated_tokens": 4,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_934628fde830701c2684c9ae",
+      "prediction": {
+        "text": "down down right",
+        "generated_tokens": 4,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_8a476619fffc09ecdfc72683",
+      "prediction": {
+        "text": "down down left left",
+        "generated_tokens": 5,
+        "failure": null
+      },
+      "truth": "invalid | step=4 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_5d1015ce4645acc64c0bf0a8",
+      "prediction": {
+        "text": "up up up up up right right",
+        "generated_tokens": 8,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_154e4d691a6b1a309805fd92",
+      "prediction": {
+        "text": "down down down down left left left left left",
+        "generated_tokens": 10,
+        "failure": null
+      },
+      "truth": "invalid | step=6 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_918c01c60b7905cb87ab10cc",
+      "prediction": {
+        "text": "down down down left left",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "invalid | step=5 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_ee608c906955b9a21e5a04e8",
+      "prediction": {
+        "text": "up up up left left left",
+        "generated_tokens": 7,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_6497170e67171df094e049d5",
+      "prediction": {
+        "text": "up up up up left left",
+        "generated_tokens": 7,
+        "failure": null
+      },
+      "truth": "invalid | step=7 | reason=goal_not_reached"
+    },
+    {
+      "sample_id": "sample_ec74f547e3aaf3ca400ee0e9",
+      "prediction": {
+        "text": "left left",
+        "generated_tokens": 3,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_b676ad854e5679f866a9d07e",
+      "prediction": {
+        "text": "up left left",
+        "generated_tokens": 4,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_d4fdec6a25f952ddd420d4a0",
+      "prediction": {
+        "text": "down down down left left",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_2fc3efb14903475c7a40cb90",
+      "prediction": {
+        "text": "down down right right",
+        "generated_tokens": 5,
+        "failure": null
+      },
+      "truth": "invalid | step=2 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_54670aa8a86709f63c567304",
+      "prediction": {
+        "text": "down down down left left left",
+        "generated_tokens": 7,
+        "failure": null
+      },
+      "truth": "invalid | step=4 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_710881079876e86e52bff6e5",
+      "prediction": {
+        "text": "up up left left left",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_87b2f2d3cc7f8c324c0b2007",
+      "prediction": {
+        "text": "up left left left",
+        "generated_tokens": 5,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_afd3a3012c653364a03b4b49",
+      "prediction": {
+        "text": "up up up right right",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_83a6ce958d277e890afefe33",
+      "prediction": {
+        "text": "up up left left left",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_009d6d79296b91f4c6c96290",
+      "prediction": {
+        "text": "left left left left left",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "invalid | step=6 | reason=goal_not_reached"
+    },
+    {
+      "sample_id": "sample_11247f9faf61360d794b35d2",
+      "prediction": {
+        "text": "down right right right",
+        "generated_tokens": 5,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_8ec1e07f2785368498ab8f14",
+      "prediction": {
+        "text": "up up up up right right right",
+        "generated_tokens": 8,
+        "failure": null
+      },
+      "truth": "invalid | step=2 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_1137ff1dbe308f822dd89258",
+      "prediction": {
+        "text": "up up up left left left left left",
+        "generated_tokens": 9,
+        "failure": null
+      },
+      "truth": "invalid | step=4 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_134d58e0a55f5b7d0c32c268",
+      "prediction": {
+        "text": "down down down down left left",
+        "generated_tokens": 7,
+        "failure": null
+      },
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_23efea4db7967f02bc6958e8",
+      "prediction": {
+        "text": "down down left left left",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_f9e8b1012de606500840b97f",
+      "prediction": {
+        "text": "up up left left",
+        "generated_tokens": 5,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_c78c3a28325905a82af4b933",
+      "prediction": {
+        "text": "down down right right right",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "invalid | step=1 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_aa87d75eebcc27b7d0424f17",
+      "prediction": {
+        "text": "up up",
+        "generated_tokens": 3,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_e42eac0919428ae1d12f9f3c",
+      "prediction": {
+        "text": "right right",
+        "generated_tokens": 3,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_0d179ce8341cb3f77159223b",
+      "prediction": {
+        "text": "down down down down right",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_1c85b8fa8309ed571d2dbf25",
+      "prediction": {
+        "text": "down right",
+        "generated_tokens": 3,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_12e8ab252c4c7234e0ec5f6e",
+      "prediction": {
+        "text": "down down down down left",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "invalid | step=2 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_69106ea037f78ee4968b68f4",
+      "prediction": {
+        "text": "up up up up left left",
+        "generated_tokens": 7,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_ef743b760ff002dd0cf330ae",
+      "prediction": {
+        "text": "down down down down right right right right",
+        "generated_tokens": 9,
+        "failure": null
+      },
+      "truth": "invalid | step=2 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_06e4a1f8a702b37d409bc9ac",
+      "prediction": {
+        "text": "down left left left left",
+        "generated_tokens": 6,
+        "failure": null
+      },
+      "truth": "invalid | step=3 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_2587093bd3e94c227d6d1a28",
+      "prediction": {
+        "text": "down down left",
+        "generated_tokens": 4,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_a4eefc9e094dbc53143efdc9",
+      "prediction": {
+        "text": "right right right",
+        "generated_tokens": 4,
+        "failure": null
+      },
+      "truth": "invalid | step=4 | reason=goal_not_reached"
+    },
+    {
+      "sample_id": "sample_e474b424e21469fd55bfc4c0",
+      "prediction": {
+        "text": "down left left left",
+        "generated_tokens": 5,
+        "failure": null
+      },
+      "truth": "valid"
+    },
+    {
+      "sample_id": "sample_52ca539b2c638099e5cf47e6",
+      "prediction": {
+        "text": "up up left left left left",
+        "generated_tokens": 7,
+        "failure": null
+      },
+      "truth": "invalid | step=4 | reason=obstacle_collision"
+    },
+    {
+      "sample_id": "sample_85a38a1fa63d8586a5755215",
+      "prediction": {
+        "text": "down down down down left left left left left",
+        "generated_tokens": 10,
+        "failure": null
+      },
+      "truth": "invalid | step=9 | reason=out_of_bounds"
+    }
+  ]
+}

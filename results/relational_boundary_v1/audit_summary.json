@@ -1,0 +1,561 @@
+{
+  "status": "passed",
+  "challenge_sha256": "bc357e9022e526ed60f4928d88cc4c3a6de5cfc43a67d1c332c36d74860c25f6",
+  "generated_sha256": "79be2275d61903ee25aff14b3edec2faa375557cd6508f890bc588176a596a27",
+  "predictions_sha256": "a5cf29f410f61ce69434ec79cccaddd388a351602de34bba271fbd2a32a470da",
+  "G_failures": 0,
+  "natural_truth": {
+    "obstacle_collision": 15,
+    "valid": 21,
+    "goal_not_reached": 3,
+    "out_of_bounds": 1
+  },
+  "models": {
+    "original": {
+      "weights_sha256": "41aae273afb09ca96ca074a87bcfec43eac571a316103bea260b6fd62e990b3a",
+      "model_calls": 111,
+      "source_failures": 9,
+      "panels": {
+        "valid_short": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "valid_long": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "hard_collision": {
+          "correct": 1,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "late_collision": {
+          "correct": 0,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "out_of_bounds": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "invalid_token": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "goal_not_reached": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "token_boundary": {
+          "correct": 1,
+          "denominator": 10,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "natural_G": {
+          "correct": 26,
+          "denominator": 40,
+          "interface_failures": 0,
+          "false_positive": 0
+        }
+      },
+      "breakdown": {
+        "all": {
+          "correct": 78,
+          "denominator": 120,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "valid": {
+          "correct": 42,
+          "denominator": 51,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "collision": {
+          "correct": 2,
+          "denominator": 35,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "other_invalid": {
+          "correct": 34,
+          "denominator": 34,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "low_density": {
+          "correct": 40,
+          "denominator": 54,
+          "interface_failures": 4,
+          "false_positive": 0
+        },
+        "high_density": {
+          "correct": 38,
+          "denominator": 66,
+          "interface_failures": 5,
+          "false_positive": 0
+        }
+      },
+      "failure_reasons": {
+        "验证输入2476 token超过2048，拒绝截断": 1,
+        "验证输入2433 token超过2048，拒绝截断": 1,
+        "验证输入2126 token超过2048，拒绝截断": 1,
+        "验证输入2622 token超过2048，拒绝截断": 1,
+        "验证输入7691 token超过2048，拒绝截断": 1,
+        "验证输入5945 token超过2048，拒绝截断": 1,
+        "验证输入6276 token超过2048，拒绝截断": 1,
+        "验证输入7624 token超过2048，拒绝截断": 1,
+        "验证输入5581 token超过2048，拒绝截断": 1
+      }
+    },
+    "geometry_gate_0.7": {
+      "weights_sha256": "23d96f5d072e76cab17c147539d2f6586ad6b65a56529f5f2b56023a47067b09",
+      "model_calls": 115,
+      "source_failures": 5,
+      "panels": {
+        "valid_short": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "valid_long": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "hard_collision": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "late_collision": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "out_of_bounds": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "invalid_token": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "goal_not_reached": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "token_boundary": {
+          "correct": 5,
+          "denominator": 10,
+          "interface_failures": 5,
+          "false_positive": 0
+        },
+        "natural_G": {
+          "correct": 40,
+          "denominator": 40,
+          "interface_failures": 0,
+          "false_positive": 0
+        }
+      },
+      "breakdown": {
+        "all": {
+          "correct": 115,
+          "denominator": 120,
+          "interface_failures": 5,
+          "false_positive": 0
+        },
+        "valid": {
+          "correct": 46,
+          "denominator": 51,
+          "interface_failures": 5,
+          "false_positive": 0
+        },
+        "collision": {
+          "correct": 35,
+          "denominator": 35,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "other_invalid": {
+          "correct": 34,
+          "denominator": 34,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "low_density": {
+          "correct": 54,
+          "denominator": 54,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "high_density": {
+          "correct": 61,
+          "denominator": 66,
+          "interface_failures": 5,
+          "false_positive": 0
+        }
+      },
+      "failure_reasons": {
+        "验证输入3409 token超过2048，拒绝截断": 1,
+        "验证输入3441 token超过2048，拒绝截断": 1,
+        "验证输入3323 token超过2048，拒绝截断": 1,
+        "验证输入3326 token超过2048，拒绝截断": 1,
+        "验证输入3364 token超过2048，拒绝截断": 1
+      }
+    },
+    "set_seed42": {
+      "weights_sha256": "3eeefd73ebf8e40f831dc32e646b1769a37d5801b4003e69567d995fef203be8",
+      "model_calls": 111,
+      "source_failures": 9,
+      "panels": {
+        "valid_short": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "valid_long": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "hard_collision": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "late_collision": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "out_of_bounds": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "invalid_token": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "goal_not_reached": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "token_boundary": {
+          "correct": 1,
+          "denominator": 10,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "natural_G": {
+          "correct": 40,
+          "denominator": 40,
+          "interface_failures": 0,
+          "false_positive": 0
+        }
+      },
+      "breakdown": {
+        "all": {
+          "correct": 111,
+          "denominator": 120,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "valid": {
+          "correct": 42,
+          "denominator": 51,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "collision": {
+          "correct": 35,
+          "denominator": 35,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "other_invalid": {
+          "correct": 34,
+          "denominator": 34,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "low_density": {
+          "correct": 50,
+          "denominator": 54,
+          "interface_failures": 4,
+          "false_positive": 0
+        },
+        "high_density": {
+          "correct": 61,
+          "denominator": 66,
+          "interface_failures": 5,
+          "false_positive": 0
+        }
+      },
+      "failure_reasons": {
+        "验证输入2476 token超过2048，拒绝截断": 1,
+        "验证输入2433 token超过2048，拒绝截断": 1,
+        "验证输入2126 token超过2048，拒绝截断": 1,
+        "验证输入2622 token超过2048，拒绝截断": 1,
+        "验证输入7691 token超过2048，拒绝截断": 1,
+        "验证输入5945 token超过2048，拒绝截断": 1,
+        "验证输入6276 token超过2048，拒绝截断": 1,
+        "验证输入7624 token超过2048，拒绝截断": 1,
+        "验证输入5581 token超过2048，拒绝截断": 1
+      }
+    },
+    "set_seed43": {
+      "weights_sha256": "acb11d93f3e7a5651f04e121f91bd434a0521cd5c1e9e323129addfdd6e615b6",
+      "model_calls": 111,
+      "source_failures": 9,
+      "panels": {
+        "valid_short": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "valid_long": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "hard_collision": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "late_collision": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "out_of_bounds": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "invalid_token": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "goal_not_reached": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "token_boundary": {
+          "correct": 1,
+          "denominator": 10,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "natural_G": {
+          "correct": 40,
+          "denominator": 40,
+          "interface_failures": 0,
+          "false_positive": 0
+        }
+      },
+      "breakdown": {
+        "all": {
+          "correct": 111,
+          "denominator": 120,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "valid": {
+          "correct": 42,
+          "denominator": 51,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "collision": {
+          "correct": 35,
+          "denominator": 35,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "other_invalid": {
+          "correct": 34,
+          "denominator": 34,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "low_density": {
+          "correct": 50,
+          "denominator": 54,
+          "interface_failures": 4,
+          "false_positive": 0
+        },
+        "high_density": {
+          "correct": 61,
+          "denominator": 66,
+          "interface_failures": 5,
+          "false_positive": 0
+        }
+      },
+      "failure_reasons": {
+        "验证输入2476 token超过2048，拒绝截断": 1,
+        "验证输入2433 token超过2048，拒绝截断": 1,
+        "验证输入2126 token超过2048，拒绝截断": 1,
+        "验证输入2622 token超过2048，拒绝截断": 1,
+        "验证输入7691 token超过2048，拒绝截断": 1,
+        "验证输入5945 token超过2048，拒绝截断": 1,
+        "验证输入6276 token超过2048，拒绝截断": 1,
+        "验证输入7624 token超过2048，拒绝截断": 1,
+        "验证输入5581 token超过2048，拒绝截断": 1
+      }
+    },
+    "set_seed44": {
+      "weights_sha256": "fe8e720d3eb42252062710c015a7d92f823d748b5b60cdb1051b1773a5a17375",
+      "model_calls": 111,
+      "source_failures": 9,
+      "panels": {
+        "valid_short": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "valid_long": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "hard_collision": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "late_collision": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "out_of_bounds": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "invalid_token": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "goal_not_reached": {
+          "correct": 10,
+          "denominator": 10,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "token_boundary": {
+          "correct": 1,
+          "denominator": 10,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "natural_G": {
+          "correct": 40,
+          "denominator": 40,
+          "interface_failures": 0,
+          "false_positive": 0
+        }
+      },
+      "breakdown": {
+        "all": {
+          "correct": 111,
+          "denominator": 120,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "valid": {
+          "correct": 42,
+          "denominator": 51,
+          "interface_failures": 9,
+          "false_positive": 0
+        },
+        "collision": {
+          "correct": 35,
+          "denominator": 35,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "other_invalid": {
+          "correct": 34,
+          "denominator": 34,
+          "interface_failures": 0,
+          "false_positive": 0
+        },
+        "low_density": {
+          "correct": 50,
+          "denominator": 54,
+          "interface_failures": 4,
+          "false_positive": 0
+        },
+        "high_density": {
+          "correct": 61,
+          "denominator": 66,
+          "interface_failures": 5,
+          "false_positive": 0
+        }
+      },
+      "failure_reasons": {
+        "验证输入2476 token超过2048，拒绝截断": 1,
+        "验证输入2433 token超过2048，拒绝截断": 1,
+        "验证输入2126 token超过2048，拒绝截断": 1,
+        "验证输入2622 token超过2048，拒绝截断": 1,
+        "验证输入7691 token超过2048，拒绝截断": 1,
+        "验证输入5945 token超过2048，拒绝截断": 1,
+        "验证输入6276 token超过2048，拒绝截断": 1,
+        "验证输入7624 token超过2048，拒绝截断": 1,
+        "验证输入5581 token超过2048，拒绝截断": 1
+      }
+    }
+  }
+}
